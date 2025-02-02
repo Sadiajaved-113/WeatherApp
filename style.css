@@ -91,3 +91,56 @@ body{
     margin-top: -5px;
 }
 
+@media(max-width:620px){
+    .card{
+        width: 450px;
+}
+}
+@media(max-width:450px){
+    .card{
+        width: 400px;
+}
+}
+@media(max-width:400px){
+    .card{
+        width: 350px;
+}
+.col img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+ }
+ .humidity, .windy{
+     font-size: 20px;
+     margin-top: -5px;
+ }
+ .search input{
+    width: 220px;
+}
+button{
+    height: 30px;
+    width: 30px;
+}
+}
+@media(max-width:350px){
+    .card{
+        width: 300px;
+}
+.col img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+ }
+ .humidity, .windy{
+     font-size: 15px;
+     margin-top: -5px;
+ }
+ .search input{
+    width: 160px;
+}
+button{
+    height: 20px;
+    width: 20px;
+}
+}
+
